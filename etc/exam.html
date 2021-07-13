@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN Link -->
+    <script src="https://kit.fontawesome.com/090f0626c6.js" crossorigin="anonymous"></script>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <title>Exam</title>
+  </head>
+  <body>
+    <div class="exam-body">
+      <div class="container">
+        <div class="row">
+          <div class="exam-box">
+            <div class="e-box">
+              <img src="../img/diu.jpg">
+            </div>
+            <h2>Online Quiz Test</h2>
+            <p class="p-one">Time: 5  Minute</p>
+            <p class="p-two">Marks: 5</p>
+            <p class="note">**Select only one answer for each question.</p>
+            <div class="e-line"></div>
+            <form name="quizexam" id="quizexam" class="qexam">
+              <div>
+                <p>1. If we want define style for an unique element, then which css selector will we use ?</p>
+                <p><input class="q-demo" type="radio" name="question1" value="di">A. Id</p>
+                <p><input class="q-demo" type="radio" name="question1" value="text">B. text</p>
+                 <p><input class="q-demo" type="radio" name="question1" value="class">C. Class</p>
+                <p><input class="q-demo" type="radio" name="question1" value="name">D. name</p>
+              </div>
+              <div>
+                <p>2. If we don't want to allow a floating div to the left side of an element, which css property will we use ?</p>
+                <p><input class="q-demo" type="radio" name="question2" value="margin">A. margin</p>
+                <p><input class="q-demo" type="radio" name="question2" value="float">B. float</p>
+                 <p><input class="q-demo" type="radio" name="question2" value="padding">C. padding</p>
+                <p><input class="q-demo" type="radio" name="question2" value="clear">D. clear</p>
+              </div>
+              <div>
+                <p>3. The year in which HTML was first proposed ?</p>
+                <p><input class="q-demo" type="radio" name="question3" value="1980">A. 1980</p>
+                <p><input class="q-demo" type="radio" name="question3" value="2000">B. 2000</p>
+                 <p><input class="q-demo" type="radio" name="question3" value="1995">C. 1995</p>
+                <p><input class="q-demo" type="radio" name="question3" value="1990">D. 1990</p>
+              </div>
+              <div>
+                <p>4. Apart from < b > tag, what other tag makes text bold ?</p>
+                <p><input class="q-demo" type="radio" name="question4" value="strong">A. Strong</p>
+                <p><input class="q-demo" type="radio" name="question4" value="fat">B. fat</p>
+                 <p><input class="q-demo" type="radio" name="question4" value="bold">C. bold</p>
+                <p><input class="q-demo" type="radio" name="question4" value="black">D. black</p>
+              </div>
+              <div>
+                <p>5. Who is known as father of Java Programming Language ?</p>
+                <p><input class="q-demo" type="radio" name="question5" value="james">A. James Gosling</p>
+                <p><input class="q-demo" type="radio" name="question4" value="pascal">B. Blais Pascal</p>
+                 <p><input class="q-demo" type="radio" name="question4" value="babbage">C. Charel Babbage</p>
+                <p><input class="q-demo" type="radio" name="question4" value="java">D. M. P Java</p>
+              </div>
+
+              <div class="btn-sub">
+                <input type="button" class="btn-submit" name="" value="Submit" onclick="check()">
+              </div>
+            </form>
+
+            <p id="score"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <!-- JAVA Svript File -->
+    <script src="../js/exam.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+
+  </body>
+</html>
